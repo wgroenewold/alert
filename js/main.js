@@ -1,14 +1,14 @@
-$(function(){
+jQuery(function ($) {
 alert('You are nice');
 $('.alert').addClass('good');
 
-$('.alert').click(function(){
+$(this).on('click', '.alert', function(){
 	$(this).fadeOut();
 });
 });
 
 function alert(message) {
-    $('body').append('<div class="alert">'+message+'</div>');
+    jQuery('body').prepend('<div class="alert">'+message+'</div>');
 }
 
 

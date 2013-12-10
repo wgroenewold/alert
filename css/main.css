@@ -99,7 +99,7 @@ textarea {
    ========================================================================== */
 
 .alert{
-    position:relative;
+    position:absolute;
     margin-top:100px;
     margin-left:-150px;
     left:50%;
